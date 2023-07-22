@@ -1,0 +1,136 @@
+{
+    "locations": [
+            {
+                "Location Name": "Boston",
+                "Depot": false,
+                "Latitude": 42.364506,
+                "Longitude": -71.038887,
+                "min_start_int": null,
+                "max_start_int": null,
+                "exact_start_int": null,
+                "Demand": 1,
+                "Demand ": 1,
+                "Valid": true, 
+                "UUID": "90916213-aeb0-419a-930b-6e4f681c9f4b"
+            },
+            {   
+                "Location Name": "Chicago",
+                "Depot": false,
+                "Latitude": 41.739685,
+                "Longitude": -87.554420,
+                "min_start_int": null,
+                "max_start_int": null,
+                "exact_start_int": null,
+                "Demand": 1,
+                "Demand ": 1,
+                "Valid": true,
+                "Validation Message": "testing",
+                "UUID": "0fba36e0-4c2d-4d34-a7eb-b0917989c4d1"
+            },
+            {
+                "Location Name": "New York",
+                "Depot": false,
+                "Latitude": 40.712772,
+                "Longitude": -74.006058,
+                "min_start_int": null,
+                "max_start_int": null,
+                "exact_start_int": null,
+                "Demand": 1,
+                "Demand ": 1,
+                "Valid": true,
+                "UUID": "84a82362-1916-49fb-8abb-36bfa4bce43c"
+            }
+        ],
+    "trips":
+        [{
+            "Trip ID": 1,
+            "From Location": "Chicago",
+            "To Location": "Boston",
+            "Vehicle Types": ["Type 1", "Type 2"],
+            "min_start_int": null,
+            "max_start_int": null,
+            "min_end_int": null,
+            "max_end_int": null,
+            "exact_start_int": null,
+            "exact_end_int": null,
+            "min_start_time": null,
+            "max_start_time": null,
+            "min_end_time": null,
+            "max_end_time":  null,
+            "exact_start_time": null,
+            "exact_end_time": null,
+            "start_day_date": null,
+            "start_day_int": null,
+            "end_day_date": null,
+            "end_day_int": null,
+            "Valid": true,
+            "Validation Message": "",
+            "From Location Latitude": 41.739685,
+            "From Location Longitude": -87.554420,
+            "To Location Latitude": 42.364506,
+            "To Location Longitude": -71.038887,
+            "From UUID": "0fba36e0-4c2d-4d34-a7eb-b0917989c4d1",
+            "To UUID": "90916213-aeb0-419a-930b-6e4f681c9f4b",
+            "UUID": "0fba36e0-4c2d-4d34-a7eb-b0917989c4d2"
+        }
+        ],
+    "vehicles":
+        [
+        {"Vehicle ID": 1, 
+        "Starting Location": "Boston",
+        "Vehicle Type": "Type 1",
+        "Color": "#1ABC9C",
+        "Valid": true,
+        "Validation Message": null,
+        "UUID": "1fa83953-bafe-44cf-a6cb-ac430ed44312"
+        },
+        {"Vehicle ID": 2, 
+            "Starting Location": "Chicago",
+            "Vehicle Type": "Type 1",
+            "Color": "#b0f542",
+            "Valid": true,
+            "Validation Message": null,
+            "UUID": "91a6cce7-2a5b-4b16-a23d-11487c4ad64b"
+        }
+        ],
+    "vehicle_types": 
+        [{
+            "UUID": "91a6cce7-2c5b-4b16-a23d-11487c4ad64b",
+            "Vehicle Type": "Type 1",
+            "Capacity": 1
+        }],
+    "travel_costs":
+        [],
+    "route_results_tsp": 
+        [],
+    "route_results_vrp": 
+        [],
+    "locationsXY":
+        [
+            {
+                "Location Name": "Location1",
+                "X": 1,
+                "Y": 1,
+                "Demand": 1,
+                "Valid": true, 
+                "UUID": "90916213-aeb0-419a-930b-6e4f681c9f4b"
+            },
+            {   
+                "Location Name": "Location2",
+                "X": 2,
+                "Y": 2,
+                "Demand": 1,
+                "Valid": true,
+                "Validation Message": "",
+                "UUID": "0fba36e0-4c2d-4d34-a7eb-b0917989c4d1"
+            },
+            {
+                "Location Name": "Location3",
+                "X": 3,
+                "Longitude": 3,
+                "Demand": 1,
+                "Valid": true,
+                "UUID": "84a82362-1916-49fb-8abb-36bfa4bce43c"
+            }
+        ]
+}
